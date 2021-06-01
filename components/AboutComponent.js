@@ -72,7 +72,6 @@ class About extends Component {
         
 
         return (
-            <div>
                 <ScrollView>
                     <Animatable.View animation='fadeInDown' duration={2000} delay={1000}>
                         <Mission />
@@ -86,7 +85,6 @@ class About extends Component {
                         </Card>
                     </Animatable.View>    
                 </ScrollView>
-            </div>
         )
     }
 }
